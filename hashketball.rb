@@ -1,7 +1,11 @@
 def game_hash 
   nested_hash = {
-    :home => {team_name,}
-    :away
+    :home => {
+      :team_name => string,
+      :colors => [],
+      :players => []
+    },
+    :away => {}
   }
   
   
